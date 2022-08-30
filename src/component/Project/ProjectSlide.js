@@ -19,7 +19,12 @@ import splassive from "../../Assets/splassive.PNG"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import googy from "../../Assets/googy.PNG"
+import googy from "../../Assets/googy.PNG";
+import center from "../../Assets/center.png";
+import RTD from "../../Assets/RTD.png";
+import bnbShers from "../../Assets/bnb-shers.png";
+import tronforever from "../../Assets/tron-forever.png";
+import berryClub from "../../Assets/berry-culb.jpeg";
 import Modal from 'react-bootstrap/Modal'
 import { IoMdClose } from "react-icons/io"
 export default function ProjectSlide() {
@@ -33,6 +38,12 @@ export default function ProjectSlide() {
   const [modalShowseven, setModalShowseven] = useState(false);
   const [modalShoweight, setModalShowEight] = useState(false);
   const [modalShowNINE, setModalShowNINE] = useState(false);
+  const [modalShowTEN, setModalShowTEN] = useState(false);
+  const [modalShowELEVEN, setModalShowELEVEN] = useState(false);
+  const [modalShowTWELVE, setModalShowTWELVE] = useState(false);
+  const [modalShowTHIRTEEN, setModalShowTHIRTEEN] = useState(false);
+  const [modalShowFOURTEEN, setModalShowFOURTEEN] = useState(false);
+  const [modalShowFIFTEEN, setModalShowFIFTEEN] = useState(false);
   const settings = {
     className: "center",
     centerMode: true,
@@ -131,7 +142,7 @@ export default function ProjectSlide() {
                   </div>
                 </Modal.Body>
               </Modal> : <></>}
-              <div className="card111 mb-5"><img src={SMSSwap} width="200px"/>
+              <div className="card111 mb-5"><img src={SMSSwap} width="200px" />
 
                 <div className="info">
                   <h1>SMS swap</h1>
@@ -519,11 +530,11 @@ export default function ProjectSlide() {
             </div>
 
 
-            {/* Meta gauge  */}
+            {/* WOLF NODES  */}
             <div className=''>
-              {modalShowNINE ? <Modal
-                show={modalShowNINE}
-                onHide={() => setModalShowNINE(false)}
+              {modalShowFOURTEEN ? <Modal
+                show={modalShowFOURTEEN}
+                onHide={() => setModalShowFOURTEEN(false)}
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
@@ -534,7 +545,7 @@ export default function ProjectSlide() {
                   <div className='row d-flex justify-content-center' >
                     <div className='col-12 d-flex- justify-content-end'>
                       <IoMdClose
-                        onClick={() => setModalShowNINE(false)}
+                        onClick={() => setModalShowFOURTEEN(false)}
                         size={28}
                         style={{ color: "white", cursor: "pointer" }}
                       />
@@ -559,7 +570,7 @@ export default function ProjectSlide() {
                 <div className="info">
                   <h1>WOLF NODES</h1>
                   <p>Mobility Location Data Blockchain Mining Platform</p>
-                  <button onClick={() => setModalShowNINE(true)}>Read More</button>
+                  <button onClick={() => setModalShowFOURTEEN(true)}>Read More</button>
                 </div>
               </div>
             </div>
@@ -611,7 +622,248 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
+            {/* BNB Shares  */}
+            <div className=''>
+              {modalShowELEVEN ? <Modal
+                show={modalShowELEVEN}
+                onHide={() => setModalShowELEVEN(false)}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                style={{ opactiy: "0.2" }}
+              >
 
+                <Modal.Body className='model-image' style={{ backgroundColor: "rgb(51, 50, 50)" }}>
+                  <div className='row d-flex justify-content-center' >
+                    <div className='col-12 d-flex- justify-content-end'>
+                      <IoMdClose
+                        onClick={() => setModalShowELEVEN(false)}
+                        size={28}
+                        style={{ color: "white", cursor: "pointer" }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className='row d-flex justify-content-center mt-4'>
+                    <div className='col-md-6 d-flex justify-content-center'>
+                      <img src={bnbShers} className="project-modal-image" />
+                    </div>
+                    <div className='col-md-6 col-11 d-flex flex-column text-white mt-md-1 mt-4'>
+                      <h1 className="footer-h2">BNB Shares</h1>
+                      <p className='footer-pp'>A FINANCIAL SYSTEM BUILT ON SMART CONTRACT TECHNOLOGY.
+                        OPEN TO ALL, TRANSPARENT TO ALL.
+
+                      </p>
+                      <a href='https://quirky-mirzakhani-ec522b.netlify.app/' target="_blank" className="btn btn-lightsss">Vist Website</a>
+                    </div>
+                  </div>
+                </Modal.Body>
+              </Modal> : <></>}
+              <div className="card111 mb-5"><img src={bnbShers} />
+
+                <div className="info">
+                  <h1>BNB Shares</h1>
+                  <p>The next big passive income printer on the AVALANCHE Network</p>
+                  <button onClick={() => setModalShowELEVEN(true)}>Read More</button>
+                </div>
+              </div>
+            </div>
+            {/* Tron Forever  */}
+            <div className=''>
+              {modalShowTEN ? <Modal
+                show={modalShowTEN}
+                onHide={() => setModalShowTEN(false)}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                style={{ opactiy: "0.2" }}
+              >
+
+                <Modal.Body className='model-image' style={{ backgroundColor: "rgb(51, 50, 50)" }}>
+                  <div className='row d-flex justify-content-center' >
+                    <div className='col-12 d-flex- justify-content-end'>
+                      <IoMdClose
+                        onClick={() => setModalShowTEN(false)}
+                        size={28}
+                        style={{ color: "white", cursor: "pointer" }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className='row d-flex justify-content-center mt-4'>
+                    <div className='col-md-6 d-flex justify-content-center'>
+                      <img src={tronforever} className="project-modal-image" />
+                    </div>
+                    <div className='col-md-6 col-11 d-flex flex-column text-white mt-md-1 mt-4'>
+                      <h1 className="footer-h2">Tron Forever</h1>
+                      <p className='footer-pp'>Blockchain decentralized and anonymous platform
+                        Totally secure income based on  TRX smart-contract
+                        Smart-contract verified and audited by independent company
+
+                      </p>
+                      <a href='https://quizzical-cori-3855d3.netlify.app/' target="_blank" className="btn btn-lightsss">Vist Website</a>
+                    </div>
+                  </div>
+                </Modal.Body>
+              </Modal> : <></>}
+              <div className="card111 mb-5"><img src={tronforever} />
+
+                <div className="info">
+                  <h1>Tron Forever</h1>
+                  <p>The next big passive income printer on the AVALANCHE Network</p>
+                  <button onClick={() => setModalShowTEN(true)}>Read More</button>
+                </div>
+              </div>
+            </div>
+            {/* RTD Tron Lottery  */}
+            <div className=''>
+              {modalShowTWELVE ? <Modal
+                show={modalShowTWELVE}
+                onHide={() => setModalShowTWELVE(false)}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                style={{ opactiy: "0.2" }}
+              >
+
+                <Modal.Body className='model-image' style={{ backgroundColor: "rgb(51, 50, 50)" }}>
+                  <div className='row d-flex justify-content-center' >
+                    <div className='col-12 d-flex- justify-content-end'>
+                      <IoMdClose
+                        onClick={() => setModalShowTWELVE(false)}
+                        size={28}
+                        style={{ color: "white", cursor: "pointer" }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className='row d-flex justify-content-center mt-4'>
+                    <div className='col-md-6 d-flex justify-content-center'>
+                      <img src={RTD} className="project-modal-image" />
+                    </div>
+                    <div className='col-md-6 col-11 d-flex flex-column text-white mt-md-1 mt-4'>
+                      <h1 className="footer-h2">RTD Tron Lottery</h1>
+                      <p className='footer-pp'>A FINANCIAL SYSTEM BUILT ON SMART CONTRACT TECHNOLOGY.
+                        OPEN TO ALL, TRANSPARENT TO ALL.
+
+                      </p>
+                      <a href='https://stupefied-torvalds-acf59b.netlify.app/' target="_blank" className="btn btn-lightsss">Vist Website</a>
+                    </div>
+                  </div>
+                </Modal.Body>
+              </Modal> : <></>}
+              <div className="card111 mb-5"><img src={RTD} />
+
+                <div className="info">
+                  <h1>RTD Tron Lottery</h1>
+                  <p>RDTronlottery is a decenterlized community raffle smart contract, its design is intented to change the financial lives of two praticipants each time the raffle is run and with a low cost of 10 TRX!</p>
+                  <button onClick={() => setModalShowTWELVE(true)}>Read More</button>
+                </div>
+              </div>
+            </div>
+            {/* CENTER COIN  */}
+            <div className=''>
+              {modalShowTHIRTEEN ? <Modal
+                show={modalShowTHIRTEEN}
+                onHide={() => setModalShowTHIRTEEN(false)}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                style={{ opactiy: "0.2" }}
+              >
+
+                <Modal.Body className='model-image' style={{ backgroundColor: "rgb(51, 50, 50)" }}>
+                  <div className='row d-flex justify-content-center' >
+                    <div className='col-12 d-flex- justify-content-end'>
+                      <IoMdClose
+                        onClick={() => setModalShowTHIRTEEN(false)}
+                        size={28}
+                        style={{ color: "white", cursor: "pointer" }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className='row d-flex justify-content-center mt-4'>
+                    <div className='col-md-6 d-flex justify-content-center'>
+                      <img src={center} className="project-modal-image" />
+                    </div>
+                    <div className='col-md-6 col-11 d-flex flex-column text-white mt-md-1 mt-4'>
+                      <h1 className="footer-h2">CENTER COIN</h1>
+                      <p className='footer-pp'>A FINANCIAL SYSTEM BUILT ON SMART CONTRACT TECHNOLOGY.
+                        OPEN TO ALL, TRANSPARENT TO ALL.
+
+                      </p>
+                      <a href='https://www.centercoin.farm/locking/' target="_blank" className="btn btn-lightsss">Vist Website</a>
+                    </div>
+                  </div>
+                </Modal.Body>
+              </Modal> : <></>}
+              <div className="card111 mb-5"><img src={center} />
+
+                <div className="info">
+                  <h1>CENTER COIN</h1>
+                  <p>Total income: based on your tarrif plan (from 1% to 90%)
+
+                    .1 0.033% to 0.123% every 24 hours - only for new deposits
+
+                    .1 1 CenterCoin Minimum Limit, no maximal limit
+
+                    Earnings every moment, withdraw any time (if you use capitalization of interest you can withdraw only after end of your deposit)s</p>
+                  <button onClick={() => setModalShowTHIRTEEN(true)}>Read More</button>
+                </div>
+              </div>
+            </div>
+            {/* BERRY CLUB  */}
+            <div className=''>
+              {modalShowFIFTEEN ? <Modal
+                show={modalShowFIFTEEN}
+                onHide={() => setModalShowFIFTEEN(false)}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                style={{ opactiy: "0.2" }}
+              >
+
+                <Modal.Body className='model-image' style={{ backgroundColor: "rgb(51, 50, 50)" }}>
+                  <div className='row d-flex justify-content-center' >
+                    <div className='col-12 d-flex- justify-content-end'>
+                      <IoMdClose
+                        onClick={() => setModalShowFIFTEEN(false)}
+                        size={28}
+                        style={{ color: "white", cursor: "pointer" }}
+                      />
+                    </div>
+                  </div>
+
+                  <div className='row d-flex justify-content-center mt-4'>
+                    <div className='col-md-6 d-flex justify-content-center'>
+                      <img src={berryClub} className="project-modal-image" />
+                    </div>
+                    <div className='col-md-6 col-11 d-flex flex-column text-white mt-md-1 mt-4'>
+                      <h1 className="footer-h2">BERRY CLUB</h1>
+                      <p className='footer-pp'>Join Metaverse World that you create with celebrities in every field.
+
+                        Berry Club publishes the celebrity's 10,000 PFP stars based on klaytn, And comprises community membership form creating with both celebrity and NFT holder.
+
+                        Join us on a new journey which begins on Berry Club, and enjoy the various benefit!
+
+                      </p>
+                      <a href='https://berry-club.netlify.app/' target="_blank" className="btn btn-lightsss">Vist Website</a>
+                    </div>
+                  </div>
+                </Modal.Body>
+              </Modal> : <></>}
+              <div className="card111 mb-5"><img src={berryClub} />
+
+                <div className="info">
+                  <h1>BERRY CLUB</h1>
+                  <p>Join Metaverse World that you create with celebrities in every field.
+
+                    Berry Club publishes the celebrity's 10,000 PFP stars based on klaytn, And comprises community membership form creating with both celebrity and NFT holder.</p>
+                  <button onClick={() => setModalShowFIFTEEN(true)}>Read More</button>
+                </div>
+              </div>
+            </div>
           </Slider>
         </div>
       </div>
