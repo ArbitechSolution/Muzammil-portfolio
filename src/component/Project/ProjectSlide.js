@@ -51,6 +51,7 @@ export default function ProjectSlide() {
     centerPadding: "60px",
     slidesToShow: 3,
     speed: 500,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -464,7 +465,7 @@ export default function ProjectSlide() {
 
                 <div className="info">
                   <h1>SAVAGE WOLVES</h1>
-                  <p>Savage Wolves are a limited collection of 2000 Genesis, high-quality, pixelated and randomly generated NFTs</p>
+                  <p>Savage Wolves are a limited collection of 2000</p>
                   <button onClick={() => setModalShowseven(true)}>Read More</button>
                 </div>
               </div>
