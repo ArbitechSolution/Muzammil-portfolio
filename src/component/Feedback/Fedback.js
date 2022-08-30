@@ -8,6 +8,10 @@ import image1 from "../../Assets/feedback1.PNG"
 import image2 from "../../Assets/feedback2.PNG"
 import image3 from "../../Assets/feedback3.PNG"
 import image4 from "../../Assets/feedback4.PNG"
+import image5 from "../../Assets/feedback5.jpeg"
+import image6 from "../../Assets/feedback6.jpeg"
+import image7 from "../../Assets/feedback7.jpeg"
+import image8 from "../../Assets/feedback8.jpeg"
 // import image5 from "../../Assets/r12.72faf151.png"
 function Fedback() {
 
@@ -95,13 +99,34 @@ function Fedback() {
                                         alt="Third slide"
                                     />
                                 </Carousel.Item>
-                                {/* <Carousel.Item>
+                                <Carousel.Item>
                                     <img
                                         className="d-block w-100"
                                         src={image5}
                                         alt="Third slide"
                                     />
-                                </Carousel.Item> */}
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={image6}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={image7}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={image8}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
                             </Carousel>
 
                             {/* <Slider {...settings}>

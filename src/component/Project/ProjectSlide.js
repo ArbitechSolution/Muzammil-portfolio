@@ -105,7 +105,6 @@ export default function ProjectSlide() {
 
 
           <Slider {...settings} className="m-3">
-
             {/* sms Swap */}
             <div className=''>
               {modalShow ? <Modal
@@ -151,9 +150,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
-
             {/* psydode */}
             <div className="">
               {modalShowOne ? <Modal
@@ -199,7 +195,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
             {/* Goongye */}
             <div className=''>
               {modalShowtwo ? <Modal
@@ -246,7 +241,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
             {/* ThunderBrwal */}
             <div className=''>
               {modalShowthree ? <Modal
@@ -292,8 +286,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
             {/* bnb stake */}
             <div className=''>
               {modalShowfour ? <Modal
@@ -339,7 +331,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
             {/* falafel */}
             <div className=''>
               {modalShowfive ? <Modal
@@ -387,8 +378,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
             {/* Crypto Car Club  */}
             <div className=''>
               {modalShowSIX ? <Modal
@@ -436,8 +425,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
             {/* SAVAGE WOLVES  */}
             <div className=''>
               {modalShowseven ? <Modal
@@ -482,8 +469,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
             {/* Meta gauge  */}
             <div className='m-3'>
               {modalShoweight ? <Modal
@@ -528,8 +513,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
             {/* WOLF NODES  */}
             <div className=''>
               {modalShowFOURTEEN ? <Modal
@@ -574,9 +557,6 @@ export default function ProjectSlide() {
                 </div>
               </div>
             </div>
-
-
-
             {/* splassive  */}
             <div className=''>
               {modalShowNINE ? <Modal
@@ -756,7 +736,7 @@ export default function ProjectSlide() {
 
                 <div className="info">
                   <h1>RTD Tron Lottery</h1>
-                  <p>RDTronlottery is a decenterlized community raffle smart contract, its design is intented to change the financial lives of two praticipants each time the raffle is run and with a low cost of 10 TRX!</p>
+                  <p>RDTronlottery is a decenterlized community raffle smart contract</p>
                   <button onClick={() => setModalShowTWELVE(true)}>Read More</button>
                 </div>
               </div>
@@ -802,13 +782,7 @@ export default function ProjectSlide() {
 
                 <div className="info">
                   <h1>CENTER COIN</h1>
-                  <p>Total income: based on your tarrif plan (from 1% to 90%)
-
-                    .1 0.033% to 0.123% every 24 hours - only for new deposits
-
-                    .1 1 CenterCoin Minimum Limit, no maximal limit
-
-                    Earnings every moment, withdraw any time (if you use capitalization of interest you can withdraw only after end of your deposit)s</p>
+                  <p>A FINANCIAL SYSTEM BUILT ON SMART CONTRACT TECHNOLOGY.</p>
                   <button onClick={() => setModalShowTHIRTEEN(true)}>Read More</button>
                 </div>
               </div>
@@ -857,9 +831,7 @@ export default function ProjectSlide() {
 
                 <div className="info">
                   <h1>BERRY CLUB</h1>
-                  <p>Join Metaverse World that you create with celebrities in every field.
-
-                    Berry Club publishes the celebrity's 10,000 PFP stars based on klaytn, And comprises community membership form creating with both celebrity and NFT holder.</p>
+                  <p>Join Metaverse World that you create with celebrities in every field.</p>
                   <button onClick={() => setModalShowFIFTEEN(true)}>Read More</button>
                 </div>
               </div>
