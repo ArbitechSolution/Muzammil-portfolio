@@ -51,7 +51,7 @@ export default function ProjectSlide() {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 1000,
-    slidesToShow: 4,
+    slidesToShow: 3,
     // cssEase: "linear",
     responsive: [
       {
