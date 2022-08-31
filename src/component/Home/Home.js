@@ -12,7 +12,7 @@ function Home() {
 
                     </p>
                     <p className='home-p'>
-                        Front End Services: <br />
+                        <span>Front End Services:</span> <br />
                         HTML, CSS, JavaScript, Bootstrap, Redux, Redux Thunk, Redux Toolkit, TypeScript, Material UI , Custom Styling, Responsive Design, Tailwind CSS, API Integration, React JS,, Next js, server-side rendered application, React form with Formik, React Hook Form and Yup,
                     </p>
                     <p className='home-p'>
